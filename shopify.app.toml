@@ -2,12 +2,11 @@
 
 client_id = "3f01ec63c663ff22ee288ab7e23e04f1"
 name = "adaptive-benchmark-app"
-application_url = "https://adaptive-benchmark-app-random-test.onrender.com"
+application_url = "https://adaptive-benchmark-app.traefik.me/"
 embedded = true
 
 [build]
 automatically_update_urls_on_dev = true
-include_config_on_deploy = true
 
 [webhooks]
 api_version = "2025-10"
@@ -25,4 +24,4 @@ api_version = "2025-10"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://adaptive-benchmark-app-random-test.onrender.com/api/auth" ]
+redirect_urls = [ "https://adaptive-benchmark-app.traefik.me/api/auth" ]
